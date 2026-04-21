@@ -181,3 +181,4 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 2
 ---
 
 **Versión**: 1.0 | **Estado**: MVP | **Última actualización**: 2026-04-20
+
