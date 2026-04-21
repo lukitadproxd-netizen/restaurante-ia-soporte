@@ -1,0 +1,148 @@
+{
+  "restaurante": {
+    "nombre": "La Buena Mesa",
+    "telefono": "+54 11 1234-5678",
+    "horarios": {
+      "lunes_viernes": "12:00 - 15:00 y 19:00 - 23:00",
+      "sabado": "12:00 - 00:00",
+      "domingo": "12:00 - 23:00",
+      "cerrado": "Ningún día"
+    },
+    "politicas": {
+      "delivery": "Zona de cobertura a 5km. Mínimo $500. Demora: 30-45 minutos.",
+      "retiro": "En local de 12 a 23 horas.",
+      "cambios": "Hasta 30 minutos después de confirmar el pedido.",
+      "devolucion": "Reembolso dentro de 24 horas si el producto llega en mal estado.",
+      "reservas": "Llamar al restaurante. Mesas de 2 a 12 personas. Anticipo no requerido."
+    }
+  },
+  "menu": {
+    "entradas": [
+      {
+        "nombre": "Tabla de Quesos y Embutidos",
+        "precio": 850,
+        "descripcion": "Selección de quesos artesanales y fiambres importados.",
+        "alergenos": ["gluten", "lacteos"],
+        "disponible": true
+      },
+      {
+        "nombre": "Croquetas de Jamón",
+        "precio": 520,
+        "descripcion": "6 croquetas caseras con jamón serrano.",
+        "alergenos": ["gluten", "huevo", "lacteos"],
+        "disponible": true
+      },
+      {
+        "nombre": "Empanadas de Carne",
+        "precio": 450,
+        "descripcion": "4 empanadas rellenas de carne argentina.",
+        "alergenos": ["gluten"],
+        "disponible": true
+      }
+    ],
+    "platos_principales": [
+      {
+        "nombre": "Bife de Chorizo 300g",
+        "precio": 1850,
+        "descripcion": "Corte premium a la parrilla con papas al rescoldo.",
+        "alergenos": [],
+        "disponible": true
+      },
+      {
+        "nombre": "Milanesa Napolitana",
+        "precio": 1200,
+        "descripcion": "Milanesa de ternera cubierta con tomate, queso y jamón.",
+        "alergenos": ["gluten", "huevo", "lacteos"],
+        "disponible": true
+      },
+      {
+        "nombre": "Salmón a la Manteca de Limón",
+        "precio": 1650,
+        "descripcion": "Filete de salmón fresco en manteca de limón con vegetales.",
+        "alergenos": ["pescado", "lacteos"],
+        "disponible": true
+      },
+      {
+        "nombre": "Pasta a la Bolognesa",
+        "precio": 980,
+        "descripcion": "Tallarín con salsa de carne casera.",
+        "alergenos": ["gluten", "huevo", "lacteos"],
+        "disponible": true
+      }
+    ],
+    "ensaladas": [
+      {
+        "nombre": "Ensalada Cesar",
+        "precio": 650,
+        "descripcion": "Lechuga romana, parmesano, crutones y salsa cesar.",
+        "alergenos": ["gluten", "huevo", "lacteos"],
+        "disponible": true
+      },
+      {
+        "nombre": "Ensalada Verde",
+        "precio": 450,
+        "descripcion": "Variedad de lechugas, tomate, pepino y aderezo vinagreta.",
+        "alergenos": [],
+        "disponible": true
+      }
+    ],
+    "bebidas": [
+      {
+        "nombre": "Agua Mineral",
+        "precio": 200,
+        "descripcion": "Botella de 500ml sin gas o con gas.",
+        "alergenos": [],
+        "disponible": true
+      },
+      {
+        "nombre": "Gaseosa",
+        "precio": 250,
+        "descripcion": "Coca-Cola, Sprite o Fanta. Vaso o lata.",
+        "alergenos": [],
+        "disponible": true
+      },
+      {
+        "nombre": "Vino Tinto Malbec",
+        "precio": 1200,
+        "descripcion": "Copa de Malbec Mendoza 2022.",
+        "alergenos": [],
+        "disponible": true
+      },
+      {
+        "nombre": "Cerveza Artesanal",
+        "precio": 400,
+        "descripcion": "IPA o Negra local. Pinta.",
+        "alergenos": ["gluten"],
+        "disponible": true
+      }
+    ],
+    "postres": [
+      {
+        "nombre": "Flan Casero",
+        "precio": 380,
+        "descripcion": "Flan tradicional con dulce de leche.",
+        "alergenos": ["huevo", "lacteos"],
+        "disponible": true
+      },
+      {
+        "nombre": "Tiramisú",
+        "precio": 450,
+        "descripcion": "Clásico italiano con mascarpone y cacao.",
+        "alergenos": ["gluten", "huevo", "lacteos", "cafe"],
+        "disponible": true
+      },
+      {
+        "nombre": "Fruta de Estación",
+        "precio": 300,
+        "descripcion": "Frutas frescas de temporada.",
+        "alergenos": [],
+        "disponible": true
+      }
+    ]
+  },
+  "promociones": {
+    "menú_del_día": "Lunes a viernes: Entrada + Plato Principal + Bebida = $1500 (ahorro $200).",
+    "descuento_grupo": "Grupos de 6+ personas: 10% de descuento en el total.",
+    "delivery_gratuito": "Pedidos mayores a $1500 + delivery gratis."
+  }
+}
